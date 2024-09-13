@@ -1,0 +1,10 @@
+<h2>{{ selectedMovie?.title }}</h2>
+
+<div class="container">
+    <div class="poster">
+        <img src="https://image.tmdb.org/t/p/w500/{{ selectedMovie?.poster_path }}" />
+    </div>
+    <div class="content">
+        {{ selectedMovie?.overview }}
+    </div>
+</div>

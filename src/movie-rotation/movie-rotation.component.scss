@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: row;
+
+    .poster {
+        padding-right: 10px;
+        img {
+            width: 200px;
+        }
+    }
+
+    .content{
+        width: 300px;
+    }
+}
